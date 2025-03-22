@@ -60,21 +60,21 @@ Cada integrante trabajó desde su propia rama de Git, con commits y participaci�
 - Toda entrada del usuario es validada para evitar errores y mejorar la experiencia.
 
 ## Estructura del Proyecto
-
+```
 src/
 ├── Main.kt                      # Lógica principal del programa y menú
 ├── models/
 │   ├── Productos.kt             # Clase Producto
 │   └── ItemCarrito.kt          # Elemento en el carrito
 ├── services/
-│   ├── Servicios.kt            # CRUD del inventario y manejo de archivo
+│   ├── Servicios.kt             # CRUD del inventario y manejo de archivo
 │   ├── agregarProductoAlCarrito.kt
 │   ├── eliminarProductoDelCarrito.kt
 │   ├── verCarrito.kt
 │   ├── listarProductos.kt
 │   └── pagar.kt
-inventario.txt                  # Archivo de datos persistente
-
+inventario.txt                   # Archivo de datos persistente
+```
 ## Lógica y Flujo General
 
 1. El programa carga productos desde inventario.txt.
